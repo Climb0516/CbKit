@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CbKit_Example' do
+  pod 'CbKit', :path => '../'
+
+  target 'CbKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
